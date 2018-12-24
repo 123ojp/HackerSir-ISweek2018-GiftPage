@@ -1,6 +1,6 @@
 document.write("<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js'></script>");
 var NID;
-var HOST = "http://35.201.187.227:5000"; //結尾不要/
+var HOST = "https://king.hackersir.org/aaaabbbbcccceeee"; //結尾不要/
 function checknid(NID1) {
     if (NID1.length == 9 || NID1.length == 7) {
         NID = NID1.substring(0, NID1.length - 1);
